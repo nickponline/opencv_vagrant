@@ -11,7 +11,11 @@ sudo apt-get -y install build-essential cmake git pkg-config libjpeg8-dev libtif
 rm -rm get-pip.py
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py
+
 sudo pip install numpy
+sudo pip install scipy
+sudo pip install mutils
+
 
 cd /opencv
 mkdir build
