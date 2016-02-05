@@ -14,7 +14,7 @@ sudo python get-pip.py
 
 sudo pip install numpy
 sudo pip install scipy
-sudo pip install mutils
+sudo pip install imutils
 
 
 cd /opencv
